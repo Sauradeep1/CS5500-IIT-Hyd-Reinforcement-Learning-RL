@@ -29,13 +29,13 @@ of MountainCar-v0 environment do plot a graph (one graph) that explains the acti
 of the trained agent for various values of position and velocity
 ______________________________________________________________________
 BACKGROUND OF THE 2 GAMES :
-MountainCar-v0
+(A) MountainCar-v0 -------------->
 A car is on a one-dimensional track, positioned between two "mountains". The goal is to
 drive up the mountain on the right; however, the car’s engine is not strong enough to scale
 the mountain in a single pass. Therefore, the only way to succeed is to drive back and
 forth to build up momentum. Here, the reward is greater if you spend less energy to reach
-the goal. 
-Pong-v0
+the goal. //
+(B) Pong-v0 ---------------------> 
 Pong is a two-dimensional sports game that simulates table tennis. The agent that we
 intend to develop usually controls the paddle on the right. It competes with another hardcoded
 AI agent who controls the second paddle on the opposite side. Players use the
