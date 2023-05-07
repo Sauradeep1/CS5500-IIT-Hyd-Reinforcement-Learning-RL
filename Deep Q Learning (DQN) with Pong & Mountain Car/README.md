@@ -1,11 +1,15 @@
 THEORY : 
-DQN deals with discrete Action Space - as ooposed to DDPG
+1. DQN deals with discrete Action Space - as oPposed to DDPG which deals with Continuous Action Space
 Features :
 Based on Q network
 Requires a Target network for stability
 Requires Prioritized Experience Replay for efficient sampling
 Off-policy method
-Slow convergence but efficiency is high
+Slow convergence but efficiency is high//
+2. Vanilla Policy Gradient :
+VPG is an on-policy algorithm
+Uses Policy gradients for convergence
+VPG can be used for environments with either discrete or continuous action spaces
 ______________________________________________________________________
 PROBLEM STATEMENT : 
 Implement theDQNalgorithm to solve the tasks envisioned by the two environments. For the
