@@ -1,3 +1,4 @@
+THEORY : 
 DQN deals with discrete Action Space - as ooposed to DDPG
 Features :
 Based on Q network
@@ -6,6 +7,24 @@ Requires Prioritized Experience Replay for efficient sampling
 Off-policy method
 Slow convergence but efficiency is high
 ______________________________________________________________________
+PROBLEM STATEMENT : 
+Implement theDQNalgorithm to solve the tasks envisioned by the two environments. For the
+Pong-v0 environment consider pre-processing of the frames (to arrive at state formulation)
+using the following step(s).
+• Convert the RGB image into grayscale and downsample the resultant grayscale image.
+• Further, one could also perform image subtraction between two successive frames
+Any other pre-processing framework could also be used. Although, due to computational
+constraints, one may not be able to develop ’best’ pong player, a reasonable pong player
+can be developed with a modest laptop (say in 2 to 4 million steps). Include a learning
+curve plot showing the performance of your implementation on the game Pong-v0 and
+MountainCar-v0. The x-axis should correspond to number of time steps (suitably scaled)
+and the y-axis should show the mean n-episode reward (for a suitable choice of n) as well as
+the best mean reward. For the pong game, you could implement using normal feed forward
+networks or convnets. Accordingly, you may have to do suitable preprocessing. In the case
+of MountainCar-v0 environment do plot a graph (one graph) that explains the action choices
+of the trained agent for various values of position and velocity
+______________________________________________________________________
+BACKGROUND OF THE 2 GAMES :
 MountainCar-v0
 A car is on a one-dimensional track, positioned between two "mountains". The goal is to
 drive up the mountain on the right; however, the car’s engine is not strong enough to scale
