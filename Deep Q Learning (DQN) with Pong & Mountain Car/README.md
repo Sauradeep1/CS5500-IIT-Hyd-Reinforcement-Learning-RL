@@ -12,7 +12,7 @@ Uses Policy gradients for convergence
 VPG can be used for environments with either discrete or continuous action spaces
 ______________________________________________________________________
 PROBLEM STATEMENT : 
-Implement theDQNalgorithm to solve the tasks envisioned by the two environments. For the
+PART 1 ----> Implement theDQNalgorithm to solve the tasks envisioned by the two environments. For the
 Pong-v0 environment consider pre-processing of the frames (to arrive at state formulation)
 using the following step(s).
 • Convert the RGB image into grayscale and downsample the resultant grayscale image.
@@ -27,6 +27,16 @@ the best mean reward. For the pong game, you could implement using normal feed f
 networks or convnets. Accordingly, you may have to do suitable preprocessing. In the case
 of MountainCar-v0 environment do plot a graph (one graph) that explains the action choices
 of the trained agent for various values of position and velocity
+
+PART 2 --->Choose one hyper-parameter of your choice and run at least
+three other settings of this hyper-parameter, in addition to the one used in sub-question 1,
+and plot all four learning curves on the same graph. Examples include: learning rates, neural
+network architecture, replay buffer size, mini-batch size, target update interval, exploration
+Assignment  4 Page 3
+schedule or exploration rule (e.g. you may implement an alternative to -greedy), etc. You
+are advised to choose a hyper-parameter that makes a nontrivial difference on performance
+of the agent. If computational resource is a constraint, consider answering this question only
+on MountainCar-v0 environment.
 ______________________________________________________________________
 BACKGROUND OF THE 2 GAMES :
 (A) MountainCar-v0 -------------->
